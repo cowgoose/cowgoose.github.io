@@ -1,3 +1,74 @@
 body {
     background-color: black;
 }
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap.main{
+    flex-shrink: 0;
+}
+
+.header{
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+#welcome{
+    width: 400px;
+    height: auto;
+}
+
+.navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.about{
+    display: block; 
+    background: url(/images/aboutmestatic.png) no-repeat 6px center;
+    width: 300px;
+    height: 100px;
+
+}
+.about:hover{
+    background-image: url(/images/aboutmeani.gif);
+}
+
+.project{
+    display: block; 
+    background: url(/images/projectstatic.png) no-repeat 6px center;
+    width: 300px;
+    height: 100px;
+}
+
+.project:hover{
+    background-image: url(/images/projectani.gif);
+}
+
+.gallery{
+    display: block; 
+    background: url(/images/gallery.png) no-repeat 6px center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+.gallery:hover{
+    background-image: url(/images/gallery.gif);
+}
+
+
+
+
+
