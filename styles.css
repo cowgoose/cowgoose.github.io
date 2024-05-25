@@ -5,14 +5,15 @@ body {
 .wrap{
     display: flex;
     flex-direction: column;
-}
-
-.wrap.main{
-    flex-shrink: 0;
+    justify-content: flex-start;
+    flex-basis: 50%;
 }
 
 .header{
+    display: flex;
     justify-content: center;
+    padding-right: 30px;    
+    size: 300px;
 }
 
 .main{
@@ -21,7 +22,7 @@ body {
 }
 
 #welcome{
-    width: 400px;
+    width: 320px;
     height: auto;
 }
 
@@ -67,6 +68,20 @@ body {
 .gallery:hover{
     background-image: url(/images/gallery.gif);
 }
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding-right:  30px;
+    visibility: hidden;
+}
+
+
+.socbut{
+    padding:20px;
+}
+
+
 
 
 
