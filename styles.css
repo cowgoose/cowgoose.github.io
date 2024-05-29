@@ -36,29 +36,29 @@ body {
 
 .about{
     display: block; 
-    background: url(/images/aboutmestatic.png) no-repeat 6px center;
+    background: url(/images/buttons/aboutmestatic.png) no-repeat 6px center;
     width: 300px;
     height: 100px;
 
 }
 .about:hover{
-    background-image: url(/images/aboutmeani.gif);
+    background-image: url(/images/buttons/aboutmeani.gif);
 }
 
 .project{
     display: block; 
-    background: url(/images/projectstatic.png) no-repeat 6px center;
+    background: url(/images/buttons/projectstatic.png) no-repeat 6px center;
     width: 300px;
     height: 100px;
 }
 
 .project:hover{
-    background-image: url(/images/projectani.gif);
+    background-image: url(/images/buttons/projectani.gif);
 }
 
 .gallery{
     display: block; 
-    background: url(/images/gallery.png) no-repeat 6px center;
+    background: url(/images/buttons/gallery.png) no-repeat 6px center;
     margin-top: 10px;
     margin-bottom: 30px;
     width: 300px;
@@ -66,7 +66,7 @@ body {
 }
 
 .gallery:hover{
-    background-image: url(/images/gallery.gif);
+    background-image: url(/images/buttons/gallery.gif);
 }
 
 .social{
@@ -76,10 +76,108 @@ body {
     visibility: hidden;
 }
 
-
 .socbut{
     padding:20px;
 }
+
+.navibar{
+    display: flex;
+    flex-direction: row;
+}
+
+.homenav{
+    width: 120px;
+    height: 80px;
+    padding: 20px;
+
+}
+
+.projectnav{
+    width: 120px;
+    height: 80px;
+    padding: 20px;
+}
+
+.gallerynav{
+    width: 120px;
+    height: 80px;
+    padding: 20px;
+}
+
+.aboutnav{
+    width: 120px;
+    height: 80px;
+    padding: 20px;
+}
+
+.aboutbody{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#aboutpara{
+    width:300px; 
+    height:300px; 
+    color: wheat;
+    text-align: initial;
+    margin-top: 130px;
+    font-size: 22px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+}
+
+#resbut:hover{
+    background: url(/images/buttons/Resunehigh.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+#xbut:hover{
+    background-image: url(/images/buttons/xhigh.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#inbut:hover{
+    background-image: url(/images/buttons/inhigh.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gitbut:hover{
+    background-image: url(/images/buttons/githigh.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portraitparent{
+    width: 400px;
+    height: 180px;
+    position: relative;
+}
+
+.portraitparent img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+#dog{
+    opacity: 0;
+}
+
+#tail{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
 
 
 
