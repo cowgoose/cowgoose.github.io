@@ -39,3 +39,7 @@ function mouseOff(){
   tail.style.transform = "translateX(0px)";
   tail.style.opacity = "1";
 }
+
+
+//gallery pagination
+
