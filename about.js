@@ -1,14 +1,3 @@
-//timer to change gif of greetng
-setTimeout(function(){
-    document.getElementById("title").src = "./images/staticani.gif";
-}, 1250);
-
-
-//timer for social media buttons
-setTimeout(function(){
-    document.getElementById("socialdiv").style.visibility = "visible";
-}, 1250);
-
 //dog animation
 const dog = document.getElementById("dog");
 const portrait = document.getElementById("portrait");
@@ -39,7 +28,3 @@ function mouseOff(){
   tail.style.transform = "translateX(0px)";
   tail.style.opacity = "1";
 }
-
-
-//gallery pagination
-
