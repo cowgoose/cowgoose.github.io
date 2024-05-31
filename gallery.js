@@ -2,10 +2,13 @@
 let artworks = document.querySelectorAll(".gallery li");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
+let page = document.getElementById("pnum");
 const MAX = 6;
 let index = 1;
-const pagenum = Math.floor(artworks.length / MAX);
+let pagenum = Math.ceil(artworks.length / MAX);
 
+
+//applies class to each image to show 6 art pieces at a time
 function displayitems(){
 for(let i = 0; i < artworks.length; i++){
     artworks[i].classList.remove("show");
@@ -16,25 +19,27 @@ for(let i = 0; i < artworks.length; i++){
         }
     }
 }
+
+//to avoid blank pages, disable going past 0 and MAX
 function check(){
-    if(pagenum == 1){
-        prev.style.display = "none";
+    if(index == 1){
+        prev.style.visibility = "hidden";
     }
     else{
-        prev.style.display = "block"
+        prev.style.visibility = "visible"
     }
 
-    if(pagenum == index){
-        next.style.display = "none";
+    if(index == pagenum){
+        next.style.visibility = "hidden";
     }
     else{
-        next.style.display = "block"
+        next.style.visibility = "visible"
     }
+    page.innerHTML = index;
 }
 
 console.log(pagenum);
 
-displayitems();
 prev.onclick = function(){
     console.log(index);
     index--;
@@ -48,3 +53,9 @@ next.onclick = function(){
     check();
     displayitems();
 };
+
+window.onload = function(){
+check();
+displayitems();
+};
+
