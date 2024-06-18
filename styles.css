@@ -340,3 +340,67 @@ h2{
     display: flex;
 }
 
+
+/* FOR MOBILE */
+
+@media (max-width: 530px) {
+    .header{
+        padding-right: 0px;
+    }
+    .social{
+        padding-right: 0px;
+    }
+    #title{
+        width: 300px;
+    }
+
+    .projectnav{
+        width: 100px;
+    }
+    
+    .gallerynav{
+        width: 100px;
+    }
+    
+    .aboutnav{
+        width: 100px;
+    }
+
+    .homenav{
+        width: 100px;
+    }
+
+    .aboutbody{
+        flex-direction: column;
+    }
+    .paracontainer{
+        padding: 40px;
+    }
+    .skilltab{
+        padding: 40px;
+    }
+
+    #lightbox.active img{
+        width: 300px;
+        height: auto;
+    }
+    #lightbox.active{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagesplit{
+        flex-direction: column;
+        width: 350px;
+        height: auto;
+    }
+
+    .skilltab #skills{
+        padding-left: 20px;
+    }
+    .skilltab li{
+        padding-left: 20px;
+    }
+
+
+}
