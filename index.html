@@ -9,6 +9,14 @@
     <div class="header">
         <img id="title" src="images/writing.gif">
     </div>
+
+    <div class="navi">
+        <a href="#about" class="aboutmebut" target="_self""> </a>
+        <a href="#project" class="projectbut" target="_self"> </a>
+        <a href="./gallery.html" class="gallerybut" target="_self"> </a>
+</div>
+
+
     <div id="socialdiv" class="social">
             <a class="socbut" id="resbut" href="./images/resume.pdf" target="download">
                 <img src="./images/buttons/resume.png"/>
@@ -28,14 +36,93 @@
             <img id="welcome" src="images/sleep.GIF">
         </div>
 
-        <div class="navi">
-                <a href="./about.html" class="aboutmebut" target="_self""> </a>
-                <a href="./project.html" class="projectbut" target="_self"> </a>
-                <a href="./gallery.html" class="gallerybut" target="_self"> </a>
+    </div>
+
+        <div id="about" class="aboutbody">
+            <div class="paracontainer">
+                <h1 id="hello">Hello!</h1>
+                <p id="aboutpara"> 
+                I am a recent computer science
+                graduate with a keen interest in front-end and 
+                game development! 
+                Eager to build strong connections and open to
+                learn from many. Currently
+                learning the basics of react framework 
+                and also honing my skill set for back-end.
+                </p> 
+            </div> 
+            <div class="skilltab">
+               <h1>Skills:</h1>
+                    <ul id="skills">
+                        <li>Java</li>
+                        <li>HTML, CSS, JS</li>
+                        <li>React</li>
+                        <li>Git</li>
+                        <li>Squarespace</li>
+                        <li>Unity</li>
+                        <li>Godot</li>
+                    </ul> 
+            </div>
+            
+            <div class="portraitparent">
+                <img id="tail" src="/images/tail.png">
+                <img id="dog" src="/images/dog.png"/>
+                <img id="background" src="/images/background.png"/>
+                <img id="portrait" src="/images/portraitc.png" alt="ugly man"/> 
+            </div>     
         </div>
 
-    </div>
+        <div class="projectdiv">
+            <div class="projectcontainer">
+
+                <h1 id="project"> PROJECTS </h1>
+
+                <div class="imagesplit">
+                    <img src="images/forgif.gif"/>
+                    <div class="textsplit">
+                        <h1>HOLODASH</h1>
+                        <p>A 2D roguelite sidescrolling platformer hack n' slash game.
+                           The game was created by my capstone team at the University of Washington.
+                           Feel free to check out our devlog and itch.io page to try out the game!
+                        </p>
+                        <div class="links">
+                            <a id="itch" href="https://holodash.itch.io/holodash" target="_blank">
+                                <img src ="./images/buttons/itch.png"/>
+                            </a>
+                            <a id="devlog" href="https://holodash.jhyn.dev/" target="_blank">
+                                <img src="./images/buttons/dev.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="imagesplit">
+                    <img id="ratt" src="images/ratsew.png"/>
+                    <div class="textsplit">
+                        <h1> EGYPTIAN RATSCREW</h1>
+                        <p>
+                            A small project based on a card game that I play with my friends.
+                            Currently implementing it as web browser game and possibly transfer it to a different engine.      
+                            Check out the github page down below!
+                        </p>
+                        <div class="links" style="justify-content: flex-start;">
+                            <a href="https://github.com/cowgoose/rat" target="_blank">
+                                <img src ="./images/buttons/git.png"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            
+        </div>
+    
     <script src="index.js"></script>
+
+    <footer>
+        <p>Author: Hege Refsnes<br>
+        <a href="mailto:kevbevlee@gmail.com">kevbevlee@gmail.com</a></p>
+      </footer>
 </body>
 
 <link rel="stylesheet" href="styles.css">
