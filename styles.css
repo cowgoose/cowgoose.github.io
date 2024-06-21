@@ -360,6 +360,30 @@ h2{
     display: flex;
 }
 
+a:link{
+    color: wheat;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-top: 100px;
+    background-color: #1a0d00;
+    color:wheat;
+    gap: 20px;
+    font-size: 20px;
+}
+
+footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+
 
 /* FOR MOBILE */
 
@@ -369,11 +393,22 @@ h2{
     }
     .social{
         padding-right: 0px;
+
+    }
+    .social a{
+        
+        padding: 10px;
     }
     #title{
         width: 300px;
     }
 
+    .navi{
+        width: auto;
+    }
+    a{
+        width: 200px;
+    }
     .projectnav{
         width: 100px;
     }
@@ -411,8 +446,12 @@ h2{
 
     .imagesplit{
         flex-direction: column;
-        width: 350px;
+        width: 300px;
         height: auto;
+    }
+
+    #ratt{
+        width: 250px;
     }
 
     .skilltab #skills{
