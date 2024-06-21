@@ -72,7 +72,7 @@ art.forEach(image => {
         
         //for wider pictures, fits better on screen when lightbox is active
         if(newpic.width > newpic.height){
-            newpic.style.height = 'auto';
+            newpic.style.width = 'auto';
         }
 
         while(lightbox.firstChild){

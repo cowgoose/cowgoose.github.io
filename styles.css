@@ -131,7 +131,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 50px;
+    padding-top: 150px;
     color: wheat;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
@@ -303,6 +303,7 @@ h2{
     justify-content: space-evenly;
     padding: 20px;
     padding-top: 200px;
+    padding-bottom: 200px;
     text-align: initial;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
@@ -370,8 +371,10 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 40px;
-    padding-top: 100px;
+    padding-top: 20px;
     background-color: #1a0d00;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
     color:wheat;
     gap: 20px;
     font-size: 20px;
