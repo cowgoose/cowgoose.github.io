@@ -73,6 +73,10 @@ art.forEach(image => {
         //for wider pictures, fits better on screen when lightbox is active
         if(newpic.width > newpic.height){
             newpic.style.width = 'auto';
+            //overwrite auto on mobile view
+            if (window.matchMedia('screen and (max-width: 530px)').matches) {
+                newpic.style.width = '';
+            }
         }
 
         while(lightbox.firstChild){

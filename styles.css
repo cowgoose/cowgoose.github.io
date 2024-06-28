@@ -390,7 +390,7 @@ footer * {
 
 /* FOR MOBILE */
 
-@media (max-width: 530px) {
+@media (max-width: 480px) {
     .header{
         padding-right: 0px;
     }
@@ -439,8 +439,8 @@ footer * {
     }
 
     #lightbox.active img{
-        width: 300px;
         height: auto;
+        width: 90%;
     }
     #lightbox.active{
         flex-direction: column;
